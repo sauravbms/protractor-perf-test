@@ -1,0 +1,67 @@
+Using the selenium server at http://localhost:4444/wd/hub
+[launcher] Running 1 instances of WebDriver
+[31mF[0m
+
+Failures:
+
+  1) angularjs homepage todo list should add a todo
+   Message:
+     [31mError: [log("performance")] Error response status: 13, , UnknownError - An unknown server-side error occurred while processing the command. Selenium error: unknown error: session deleted because error encountered when notifying listeners of 'GetLog' command
+from unknown error: unexpected command response
+  (Session info: content shell=)
+  (Driver info: chromedriver=2.15.322448 (52179c1b310fec1797c81ea9a20326839860b7d3),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 101 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SAURAVK-LT', ip: '10.24.142.91', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\sauravk\AppData\Local\Temp\scoped_dir10784_4981}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dfcbf54bd9e028cb0091ee2c4a719b72[0m
+   Stacktrace:
+     Error: [log("performance")] Error response status: 13, , UnknownError - An unknown server-side error occurred while processing the command. Selenium error: unknown error: session deleted because error encountered when notifying listeners of 'GetLog' command
+from unknown error: unexpected command response
+  (Session info: content shell=)
+  (Driver info: chromedriver=2.15.322448 (52179c1b310fec1797c81ea9a20326839860b7d3),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 101 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SAURAVK-LT', ip: '10.24.142.91', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\sauravk\AppData\Local\Temp\scoped_dir10784_4981}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dfcbf54bd9e028cb0091ee2c4a719b72
+    at exports.newError (C:\Users\sauravk\Documents\Protractor\node_modules\protractor-perf\node_modules\browser-perf\node_modules\wd\lib\utils.js:139:13)
+    at C:\Users\sauravk\Documents\Protractor\node_modules\protractor-perf\node_modules\browser-perf\node_modules\wd\lib\callbacks.js:75:19
+    at C:\Users\sauravk\Documents\Protractor\node_modules\protractor-perf\node_modules\browser-perf\node_modules\wd\lib\webdriver.js:174:5
+    at Request._callback (C:\Users\sauravk\Documents\Protractor\node_modules\protractor-perf\node_modules\browser-perf\node_modules\wd\lib\http-utils.js:87:7)
+    at Request.self.callback (C:\Users\sauravk\Documents\Protractor\node_modules\protractor-perf\node_modules\browser-perf\node_modules\wd\node_modules\request\request.js:368:22)
+    at Request.emit (events.js:110:17)
+    at Request.<anonymous> (C:\Users\sauravk\Documents\Protractor\node_modules\protractor-perf\node_modules\browser-perf\node_modules\wd\node_modules\request\request.js:1219:14)
+    at Request.emit (events.js:129:20)
+    at IncomingMessage.<anonymous> (C:\Users\sauravk\Documents\Protractor\node_modules\protractor-perf\node_modules\browser-perf\node_modules\wd\node_modules\request\request.js:1167:12)
+    at IncomingMessage.emit (events.js:129:20)
+From: Task: <anonymous>
+    at [object Object].start (C:\Users\sauravk\Documents\Protractor\node_modules\protractor-perf\lib\index.js:52:37)
+    at [object Object].<anonymous> (C:\Users\sauravk\Documents\Protractor\spec.js:7:11)
+    at C:\Users\sauravk\AppData\Roaming\npm\node_modules\protractor-perf\node_modules\protractor\node_modules\jasminewd\index.js:94:14
+    at [object Object].promise.ControlFlow.runInFrame_ (C:\Users\sauravk\AppData\Roaming\npm\node_modules\protractor-perf\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver\promise.js:1877:20)
+    at [object Object].promise.ControlFlow.runEventLoop_ (C:\Users\sauravk\AppData\Roaming\npm\node_modules\protractor-perf\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver\promise.js:1755:8)
+    at [object Object].<anonymous> (C:\Users\sauravk\AppData\Roaming\npm\node_modules\protractor-perf\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver\promise.js:2056:12)
+    at goog.async.run.processWorkQueue (C:\Users\sauravk\AppData\Roaming\npm\node_modules\protractor-perf\node_modules\protractor\node_modules\selenium-webdriver\lib\goog\async\run.js:125:21)
+From: Task: Asynchronous test function: it()
+    at [object Object].<anonymous> (C:\Users\sauravk\AppData\Roaming\npm\node_modules\protractor-perf\node_modules\protractor\node_modules\jasminewd\index.js:93:33)
+    at [object Object].<anonymous> (C:\Users\sauravk\AppData\Roaming\npm\node_modules\protractor-perf\node_modules\protractor\node_modules\minijasminenode\lib\async-callback.js:45:37)
+    at [object Object].jasmine.Block.execute (C:\Users\sauravk\AppData\Roaming\npm\node_modules\protractor-perf\node_modules\protractor\node_modules\minijasminenode\lib\jasmine-1.3.1.js:1174:17)
+    at [object Object].jasmine.Queue.next_ (C:\Users\sauravk\AppData\Roaming\npm\node_modules\protractor-perf\node_modules\protractor\node_modules\minijasminenode\lib\jasmine-1.3.1.js:2209:31)
+    at [object Object]._onTimeout (C:\Users\sauravk\AppData\Roaming\npm\node_modules\protractor-perf\node_modules\protractor\node_modules\minijasminenode\lib\jasmine-1.3.1.js:2199:18)
+Error
+    at [object Object].<anonymous> (C:\Users\sauravk\Documents\Protractor\spec.js:4:6)
+    at [object Object].jasmine.Env.describe_ (C:\Users\sauravk\AppData\Roaming\npm\node_modules\protractor-perf\node_modules\protractor\node_modules\minijasminenode\lib\jasmine-1.3.1.js:913:21)
+    at [object Object].jasmine.Env.describe (C:\Users\sauravk\AppData\Roaming\npm\node_modules\protractor-perf\node_modules\protractor\node_modules\minijasminenode\lib\jasmine-1.3.1.js:898:15)
+    at describe (C:\Users\sauravk\AppData\Roaming\npm\node_modules\protractor-perf\node_modules\protractor\node_modules\minijasminenode\lib\jasmine-1.3.1.js:658:27)
+    at Object.<anonymous> (C:\Users\sauravk\Documents\Protractor\spec.js:2:1)
+
+Finished in 5.223 seconds
+[31m1 test, 1 assertion, 1 failure
+[0m
+[launcher] 0 instance(s) of WebDriver still running
+[launcher] chrome #1 failed 1 test(s)
+[launcher] overall: 1 failed spec(s)
+[launcher] Process exited with error code 1
